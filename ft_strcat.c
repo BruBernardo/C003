@@ -47,8 +47,8 @@ char	*ft_strcat(char *dest, char *src)
 int     main(void)
 {
         char    *str1 = (char *)malloc(10 * sizeof(char));
-	strcpy(str1, "aloha");
-        char    str2[] = "hehe";
+	strcpy(str1, "Hello");
+        char    str2[] = "hell";
         char    *res;
 
         res = ft_strcat(str1, str2);
